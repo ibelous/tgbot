@@ -1,0 +1,16 @@
+bashplotlib==0.6.5
+beautifulsoup4==4.6.3
+certifi==2018.10.15
+chardet==3.0.4
+idna==2.7
+more-itertools==4.3.0
+numpy==1.15.1
+phash==0.2.0
+praw==6.0.0
+prawcore==1.0.0
+requests==2.20.1
+six==1.11.0
+update-checker==0.16
+urllib3==1.24.1
+virtualenv==16.1.0
+wikipedia==1.4.0
