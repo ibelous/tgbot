@@ -41,15 +41,15 @@ class BotHandler:
         return last_update
 
 
-chat_bot = BotHandler("787581576:AAGyXE5he-9Kbl-OLqlyaw_pDJ8Gu1OvCB4")
+chat_bot = BotHandler("")
 now = datetime.datetime.now()
 mem = re.compile(r'/m')
 
 def main():
     new_offset = None
-    reddit = praw.Reddit(client_id='OtAiIcbZFDiqlg',
-                         client_secret='p8X4iCNoG6yziwHdXxGfkTtMWSs',
-                         user_agent='testmemesbot')
+    reddit = praw.Reddit(client_id='',
+                         client_secret='',
+                         user_agent='')
 
     while True:
         chat_bot.get_updates(new_offset)
