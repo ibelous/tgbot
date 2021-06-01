@@ -11,6 +11,6 @@ prawcore==1.0.0
 requests==2.20.1
 six==1.11.0
 update-checker==0.16
-urllib3==1.24.1
+urllib3==1.26.5
 virtualenv==16.1.0
 wikipedia==1.4.0
